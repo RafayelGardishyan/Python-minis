@@ -12,8 +12,10 @@ while (count < 50):
       d = a - b
     elif c == '*' :
       d = a * b
-    else :
+    elif c == '/' :
       d = a / b
+    else :
+      print ('Error try again !')
     
     print (d)
     count = count + 1
