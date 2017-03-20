@@ -33,3 +33,5 @@ elif user == "scissors":
             print("You win!", user, "cut", pc)
 else:
         print("That's not a valid play. Check your spelling!") 
+
+print ("Thanks for playing this game")
