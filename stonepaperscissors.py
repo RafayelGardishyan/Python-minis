@@ -1,7 +1,7 @@
 from datetime import datetime
 now = datetime.now()
 sps = now.second % 3
-print ("Input stone/scissors/paper")
+print ("Input stone/paper/scissors")
 user = input()
 print ("Your input is:" + str(user))
 
@@ -12,7 +12,7 @@ elif sps == 1 :
 elif sps == 2 :
   pc = "scissors"
 
-print ("Conmputer says :" + pc)
+print ("Computer says :" + pc)
 
 if user == pc:
         print("Tie!")
