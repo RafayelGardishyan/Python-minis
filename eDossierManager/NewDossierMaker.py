@@ -1,7 +1,19 @@
 import time
-time = 0
+tide = 0
 count = 1
-while (time < 1):
+while (tide < 1):
+    with open("regn.txt", "w") as out_regn:
+       char = "1"
+       for i in range(len(char)):
+            out_string = str(regn)
+            out_regn.write(out_string)
+    
+    regn = regn + 1	
+    file = 'regn.txt'
+    f = open(file)
+    file_contents = f.read()
+    
+    regnn = file_contents
     name = input("Naam: ")
     lname = input("Achternaam: ")
     date = input("Geboortedatum: ")
@@ -14,12 +26,13 @@ while (time < 1):
     adr = input("Adres: ")
     comment = input("Comentaar: ")
 
-    with open("Dossier " + name + " " + lname + " " + pc + ".txt", "w") as out_file:
+    with open("Dossiers/Dossier " + name + " " + lname + " " +  regnn + ".txt", "w") as out_file:
         char = "1"
         for i in range(len(char)):
-            out_string = name + "\n" + lname + "\n" + date + "\n" + pc + "\n" + oms + "\n" + bv + "\n" + zpc + "\n" + st + "\n" + prv + "\n" + adr + "\n" + comment
+            out_string = regnn + "\n" + name + "\n" + lname + "\n" + date + "\n" + pc + "\n" + oms + "\n" + bv + "\n" + zpc + "\n" + st + "\n" + prv + "\n" + adr + "\n" + comment
             out_file.write(out_string)
 
     count = count + 1
-    
-    
+    print ("\n\n" + "De registratienummer is " + regnn + '\n\n')
+    time.sleep (5)
+

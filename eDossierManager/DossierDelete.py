@@ -3,10 +3,10 @@ while True:
     # listing directories
     print ("De naam en de achternaam van het persoon:")
     name = input()
-    print ("De paspoortnummer het persoon:")
+    print ("Het registratienummer het persoon:")
     pc = input()
 
-    # removing
-    os.remove("Dossier " + name + " " + pc + ".txt")
 
-    print ("Succesfol vervijderd \n\n")
+    os.remove("Dossiers/Dossier " + name + " " + pc + ".txt")
+
+    print ("Succesvol verwijderd \n\n")
