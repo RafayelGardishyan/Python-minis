@@ -10,7 +10,7 @@ while True:
         print(file)
     print ("Het registratienummer het persoon:")
     pc = input()
-    os.remove("Dossier " + files + " " + pc + ".log")
+    os.remove("Dossier " + files + " " + pc)
 
     print ("Succesvol verwijderd \n\n")
     time.sleep(5)

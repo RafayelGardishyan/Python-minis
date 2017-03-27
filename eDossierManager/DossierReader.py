@@ -6,7 +6,7 @@ while True:
     for file in glob.glob("Dossier " + files + "*"):
         print(file)
     filed = input('Wat is het registratienummer van het dossier (Voorbeeld: 5)')    
-    f = open('Dossier ' + files + ' ' + filed + ".log", 'r')
+    f = open('Dossier ' + files + ' ' + filed, 'r')
     file_contents = f.read()
     print (file_contents)
     print ("\n\n\n")

@@ -33,7 +33,7 @@ while (tide < 1):
     adr = input("Adres: ")
     comment = input("Comentaar: ")
 
-    with open("Dossiers/Dossier " + name + " " + lname + " " +  regnn + ".log", "w") as out_file:
+    with open("Dossiers/Dossier " + name + " " + lname + " " +  regnn, "w") as out_file:
         char = "1"
         for i in range(len(char)):
             out_string = regnn + "\n" + name + "\n" + lname + "\n" + date + "\n" + pc + "\n" + oms + "\n" + bv + "\n" + zpc + "\n" + st + "\n" + prv + "\n" + adr + "\n" + comment
