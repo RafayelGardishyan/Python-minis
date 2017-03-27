@@ -42,5 +42,5 @@ while (tide < 1):
     count = count + 1
     print ("\n\n" + "De registratienummer is " + regnn + '\n\n')
     regn = (int(regn) +1)
-    time.sleep (5)
+    time.sleep(5)
 
