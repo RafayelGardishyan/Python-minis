@@ -18,4 +18,3 @@ while (count < 50):
       print ('Error try again !')
     
     print (d)
-    count = count + 1
